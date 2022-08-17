@@ -40,7 +40,7 @@ h1 {
 .calculator-container {
     display: flex;
     flex-direction: column;
-    margin: 60px auto auto 60px;
+    margin: 60px auto auto 30px;
 }
 
 h2 {
@@ -84,7 +84,7 @@ button {
 }
 
 .messages {
-    margin: 60px auto auto 60px;
+    margin: 60px auto auto 30px;
 }
 
 h3 {
@@ -101,5 +101,5 @@ p {
     visibility: hidden;
     max-width: 60%;
     height: auto;
-    margin: 30px auto auto 90px;
+    margin: 30px auto auto 30px;
 }
