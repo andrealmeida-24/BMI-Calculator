@@ -40,7 +40,7 @@ h1 {
 .calculator-container {
     display: flex;
     flex-direction: column;
-    margin: 60px auto auto 90px;
+    margin: 60px auto auto 60px;
 }
 
 h2 {
@@ -84,7 +84,7 @@ button {
 }
 
 .messages {
-    margin: 60px auto auto 90px;
+    margin: 60px auto auto 60px;
 }
 
 h3 {
