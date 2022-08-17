@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculatorBMI.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>BMI Calculator</title>
+</head>
+
+<body>
+    <nav>
+        <h1>BMI<span id="calculator">Calculator</span></h1>
+        <a href="https://github.com/andrealmeida-24" target="_blank">
+            <img id="github-logo" src="GitHub-Mark-Light-120px-plus.png">
+        </a>
+        <a href="https://www.linkedin.com/in/andr%C3%A9-almeida-web-dev/" target="_blank">
+            <img id="linkedin-logo" src="linkedIn.png">
+        </a>
+    </nav>
+    <!--Calculator Content-->
+    <div class="calculator-container">
+        <div class="calculator">
+            <h2 id="height-text">Height <span id="cm">(centimeters)</span></h2>
+            <input type="text" id="height-input">
+            <h2 id="weight-text">Weight <span id="kilograms">(kilograms)</span></h2>
+            <input type="text" id="weight-input">
+        </div>
+        <button id="calculate-button">Calculate!</button>
+    </div>
+    <div class="messages">
+        <h3 id="result"></h3>
+        <p id="message"></p>
+    </div>
+    <img id="chart" src="chart.jpg">
+    <script src="calculatorBMI.js"></script>
+</body>
+
+</html>
